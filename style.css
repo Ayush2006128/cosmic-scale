@@ -1,0 +1,38 @@
+        body { margin: 0; overflow: hidden; background-color: #000; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        #canvas-container { width: 100vw; height: 100vh; display: block; }
+        
+        /* UI Overlay */
+        #ui {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            text-align: center;
+            color: white;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        input[type=range] {
+            width: 100%;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+
+        h1 { margin: 0 0 5px 0; font-weight: 300; letter-spacing: 2px; font-size: 24px; }
+        #scale-readout { font-family: 'Courier New', monospace; color: #00ffcc; font-size: 14px; }
+        #info-text { margin-top: 10px; font-size: 14px; color: #ccc; min-height: 40px; }
+        
+        .label {
+            position: absolute;
+            color: white;
+            font-size: 12px;
+            background: rgba(0,0,0,0.5);
+            padding: 2px 5px;
+            border-radius: 4px;
+            pointer-events: none;
+        }
