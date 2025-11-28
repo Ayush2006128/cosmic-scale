@@ -1,12 +1,12 @@
 // Service Worker for Cosmic Scale Visualization
-const CACHE_VERSION = 'cosmic-scale-v1';
+const CACHE_VERSION = 'cosmic-scale-v2';
 const CACHE_URLS = [
-  '/',
-  '/index.html',
-  '/index.js',
-  '/style.css',
-  '/favicon.png',
-  '/manifest.webmanifest',
+  './',
+  './index.html',
+  './index.js',
+  './style.css',
+  './favicon.png',
+  './manifest.webmanifest',
   'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'
 ];
 
